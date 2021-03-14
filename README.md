@@ -4,12 +4,16 @@
 
 ## Other helpful commands
 
-* build the docker image on local machine with latest tag `docker build --tag latest .`
+* To build the docker image on local machine with latest tag `docker build --tag latest .`
+
+* To view the logs for the last container using the `docker logs container-id` command. This will help to find out the initial password for Jenkins.
+
+* Install Docker and Docker Pipelines plugins within Jenkins to make sure Jenkins can run Docker jobs.
 
 * List all containers `docker ps -a`
 
-* kill the container `docker kill id`
+* Kill the container `docker kill id`
 
-* restart in bash mode `docker exec -it -u root name bash`
+* Restart in bash mode `docker exec -it -u root name bash`
 
-* restart a killed container `docker restart name`
+* Restart a killed container `docker restart name`
